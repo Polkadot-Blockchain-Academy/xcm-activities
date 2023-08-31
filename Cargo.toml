@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "chain-config/chain_config_excercises",
+    "execution",
+    "in-polkadot/debug-failed-xcm-message/subxt",
+    "in-the-runtime",
+    "xcm-simulator-pba",
+]
+resolver = "2"

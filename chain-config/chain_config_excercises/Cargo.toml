@@ -1,0 +1,17 @@
+[package]
+name = "xcm-chain-config-exercise"
+description = "XCM Chain Config Tests"
+version = "1.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+codec = { package = "parity-scale-codec", default-features = false, version = "3.0.0" }
+frame-support = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v1.0.0" }
+frame-system = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v1.0.0" }
+pallet-assets = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v1.0.0" }
+xcm-simulator-pba = { path = "../../xcm-simulator-pba" }
+xcm = { git = "https://github.com/paritytech/polkadot", branch = "release-v1.0.0" }
+xcm-builder = { git = "https://github.com/paritytech/polkadot", branch = "release-v1.0.0" }
+xcm-simulator = { git = "https://github.com/paritytech/polkadot", branch = "release-v1.0.0" }
+pallet-xcm = { git = "https://github.com/paritytech/polkadot", branch = "release-v1.0.0" }
